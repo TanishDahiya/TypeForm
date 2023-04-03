@@ -1,0 +1,103 @@
+.signupParent {
+  max-width: 400px;
+  width: 50%;
+  margin: 0 auto;
+}
+.card__title {
+  text-align: center;
+  color: #232323;
+}
+
+/* Section for -------or--------- */
+.card__head {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.card__head::before {
+  flex: 0 1 100%;
+  content: "";
+  border-bottom: 1px solid black;
+  transform: translateY(-50%);
+}
+
+.card__head::after {
+  transform: translateY(-50%);
+  flex: 0 1 100%;
+  content: "";
+  border-bottom: 1px solid black;
+}
+.spanhead {
+  padding: 0 15px;
+}
+/* END Section of -------or--------- */
+
+/*Signup Google Button Start*/
+.card__icon {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  height: 40px;
+}
+.buttonlogo {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 0px 2px 0px 0px;
+  border: 1px solid rgb(66, 133, 244);
+  border-radius: 2px;
+  box-sizing: content-box;
+  cursor: pointer;
+  background-color: rgb(66, 133, 244);
+  align-items: center;
+  margin: 0 auto;
+}
+.cardtext {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: bold;
+
+  line-height: 40px;
+  height: 40px;
+}
+button svg {
+  background-color: #fafafa;
+}
+
+/* Singnup google buttom end */
+
+/*Form Section Start*/
+.card__form {
+  display: flex;
+  flex-direction: column;
+}
+/*Form Section end*/
+.card__label {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 45px;
+  font-weight: bold;
+  color: rgb(61, 79, 88);
+}
+.card__input {
+  padding: 0.8em;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.formButton {
+  cursor: pointer;
+  background-color: #232323;
+  padding: 0.8em;
+  margin-top: 2em;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.card__link {
+  text-decoration: unset;
+  color: #232323;
+  font-weight: bold;
+}
